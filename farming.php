@@ -1,0 +1,102 @@
+<?php include('admin/runtime.php'); ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Urban Tree Connection</title>
+    
+	<link href="css/UTC.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/UTC.js"></script>
+    
+    <meta name="Description" content="The Urban Tree Connection is a nonprofit 503(c) organization that engages children and adults from some of Philadelphia's most disadvantaged neighborhoods in community-based, urban-greening projects."/>
+    <meta name="Keywords" content="nonprofit 503(c) Philadelphia community environment children adults volunteer donate economic environmental social benefits"/>
+    
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32454775-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+
+	<div style="float:left; display:inline;">
+    	<a href="index.php"><img src="images/logo_nm.jpg" title="Urban Tree Connection" alt="Urban Tree Connection home page" height="100" border="0"/></a>
+    </div>
+    
+    <div style="float:right; display:inline;">
+       	<div class="whiteLinks">
+        	<a href="donate.php">Donate</a>|<a href="volunteer.php">Volunteer</a>|<a href="contact.php" style="padding-right:3px;">Contact Us</a>
+        </div>
+    	<table cellpadding="0" cellspacing="0" class="navTable">
+            <tr>
+                <td><a href="index.php">Home</a></td>
+            	<td><a href="about.php">About Us</a></td>
+                <td><a href="programs.php">Programs</td>
+                <td class="activeNav">Farming</a></td>
+                <td><a href="news.php">News &amp; Media</a></td>
+        	</tr>
+        </table>
+    </div>
+    
+   
+    <br clear="all"/><br/>
+    </table>
+    
+
+<hr color="#CCCCCC" size="1" width="100%" </br>
+
+<h1>Urban Farming</h1>    
+    
+<h2>Neighborhood Foods Farm</h2>
+<p><img src="images/programs/Farm.jpg" align="right" class="temImg margL7" width="500">In 2010, Urban Tree Connection became the legal conservator of a long- abandoned 3/4 acre property on the 600 Block of North 53rd Street, which had been home to a construction company for many years. After significant remediation and clean-up, Urban Tree Connection developed a fully-functioning farm that grows sustainably cultivated produce to address access to healthful food for the residents of Haddington.</p>
+
+<p>Our main farm site is supplemented by smaller plots, including high tunnels on the grounds of Ward AME Church (43rd Street and Aspen Street), and a garden at First African Presbyterian Church (42nd Street & Girard Avenue).  Together with the Farm, these sites comprise a growing neighborhood food system, which we hope to continue expanding.  The various sites also provide a living classroom for the diverse array of youth and adult community programs described above.</p>
+
+<p>Paragraph on Merion Avenue here.</p>
+<br/>
+
+<h2>Farmers Markets</h2>
+<p>Produce from our Philadelphia farm sites flows into our subsidized Community Farmers Market (53rd Street and Wyalusing Avenue - Saturdays from 10:00 AM - 2:00 PM) and is also sold at farmers markets around the city, including Rittenhouse Square Market (Walnut Street between 18th and 19th Streets - Saturdays from 10:00 AM - 2:00 PM), Chester Square Market (Chestnut Street between 32nd and 33rd Streets - Tuesdays from 3:00 PM - 7:00 PM), and Liberty Lands Market (3rd and Poplar Streets - Thursdays from 4:00 PM - 7:00 PM). Revenue from these markets helps to sustain the Neighborhood Foods Farm.</p>
+
+
+<h2>Chester Farm Initiative</h2>
+<p><img src="images/programs/Chester.jpg" align="left" class="temImg margL7" width="500">First paragraph on Chester here.</p>
+
+<p>Second paragraph on Chester here.</p>
+
+<p>Third paragraph on Chester here.</p>
+<br/>
+
+    <br clear="all"/>
+</div>
+
+<div class="footer">
+    <span style="display:inline;"><a href="http://www.facebook.com/pages/Philadelphia-PA/Urban-Tree-Connection/296956299169"><img src="images/fb.png" height="20" border="0"/></a> <a href="http://twitter.com/UTCphila"><img src="images/twitter.png" height="20" border="0"/></a>
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display:inline;">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="JBSSFW7PP36FS">
+<input type="image" src="images/donate_icon.png"
+border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
+height="1">
+</form>
+	
+	</span>
+    <p style="vertical-align:top; display:inline;">&#160;|&#160;&#160;&#160;<a href="mailto:misako@urbantreeconnection.org">info@urbantreeconnection.org</a>&#160;&#160;&#160;|&#160;&#160;&#160;Tel: 215-877-7203&#160;&#160;&#160;|&#160;&#160;&#160;c/o First African Presbyterian Church, 4159 West Girard Ave, Philadelphia, Pa 19104
+    <br/>
+    &copy; 2016 Urban Tree Connection. All rights reserved.</p>
+</div>
+
+</body>
+</html>

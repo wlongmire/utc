@@ -1,0 +1,15 @@
+<div>
+    <div style="clear:both"/>
+    <perch:if exists="left_image">
+        <img style="float:left; padding:10px" src='<perch:content id="left_image" type="image" label="Left Image">' width='<perch:content id="left_image_width" type="text" label="Left Image Width">'/>
+    </perch:if>
+
+    <perch:if exists="right_image">
+        <img style="float:right; padding:10px" src='<perch:content id="right_image" type="image" label="Right Image">' width='<perch:content id="right_image_width" type="text" label="Right Image Width">'/>
+    </perch:if>
+
+    <div>
+            <perch:content id="text" type="textarea" label="Text" html editor="redactor">
+    </div>
+    <div style="clear:both"/>
+</div>
